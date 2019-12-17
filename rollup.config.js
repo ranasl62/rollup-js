@@ -11,7 +11,7 @@ export default {
             format: 'cjs'
         },
         {
-            file: 'src/build/main.min.js',
+            file: 'src/build/main2.min.js',
             format: 'iife',
             name: '1.0.0',
             plugins: [terser()]

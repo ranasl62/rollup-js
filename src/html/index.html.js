@@ -1,5 +1,6 @@
 var html = `
-<style>body {
+<style>
+body {
     font-family: Helvetica, Arial, sans-serif;
 }
 #chat-frame {
@@ -248,8 +249,7 @@ textarea:focus, input:focus {
             </div>
             </div>
         </div>
-        <button class="btn btn-sm btn-light rounded-circle m-l-5 chat-closed" id="chat-button" style="position: absolute; right:20px; bottom: 36px; background: url(./../img/message_logo.jpg) round; width: 60px; height: 60px;"></button>
-   
+ <button class="btn btn-sm btn-light rounded-circle m-l-5 chat-closed" id="chat-button" style="position: absolute; right:20px; bottom: 36px; background: url(./../img/message_logo.jpg) round; width: 60px; height: 60px;"></button>
 `;
 
-module.exports = html;
+module.exports.html = html;
